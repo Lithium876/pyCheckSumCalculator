@@ -1,0 +1,3 @@
+Hello World!
+
+Get the md5 and sha1 hash sum for this file!  
