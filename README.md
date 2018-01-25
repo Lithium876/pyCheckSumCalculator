@@ -1,8 +1,8 @@
-# pyHashSum
+# pyCheckSum Calculator
 Get the md5sum and the sha1sum of a file using a python script.
 
 ```
-$ python pyHashSum.py testFile.txt
+$ python pyCheckSum.py testFile.txt
 ```
 ## Output:
 ```
