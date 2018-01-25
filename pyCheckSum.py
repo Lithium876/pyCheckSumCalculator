@@ -5,10 +5,6 @@ def getHashSums(file_path):
     hashSums = od()
     hashSums['md5sum'] = hashlib.md5()
     hashSums['sha1sum'] = hashlib.sha1()
-    hashSums['sha224sum'] = hashlib.sha224()
-    hashSums['sha256sum'] = hashlib.sha256()
-    hashSums['sha384sum'] = hashlib.sha384()
-    hashSums['sha512sum'] = hashlib.sha512()
 
     with open(file_path, 'rb') as fd:
         dataChunk = fd.read(1024) #Reading only 1mb at a time 
